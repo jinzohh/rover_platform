@@ -1,6 +1,6 @@
 # Getting Started
 
-rover.py is a custom Python library to control the rover platform. Below are the instructions on how to call functions from the rover library.
+rover.py is a custom Python library to easily turn a Raspberry Pi into a rover (nearly as plug-and-play). Below are the instructions on how to call functions from the rover library.
 
 Make sure rover.py is in the same directory as your main Python script.
 For exmaple, the rover_controller.py should be in the same directory as rover.py.
@@ -8,9 +8,9 @@ For exmaple, the rover_controller.py should be in the same directory as rover.py
 ### Prerequisite
 Use an Arduino Uno with a motor shield such as the Adafruit Motor Shield or similar. Connect the motors, wheels, and an external power supply to power the motor shield separately from the Arduino Uno. The rover.py has a function to turn the motor shield on and off, so if you'd like to utilize this function, add a relay to the motor shield and make sure Pin 2 controlls the relay swtich to power the motor shield. See motor_v2.ino file for details. Finally, uplaod the motor_v2.ino file into the Arudino Uno with motor shield.
 
-Next, on any single board computer or a laptop, connect a wireless game controller and run the rover_controller.py. As mentioned above, make sure rover.py is in the same directory as rover_controller.py so that the library can be accessed without any issues.
+Next, on a Raspberry Pi with a USB connector, connect a wireless game controller and run the rover_controller.py. As mentioned above, make sure rover.py is in the same directory as rover_controller.py so that the library can be accessed without any issues.
 
-That's basically it! Now you can attach a rover onto just about any computer that can run Python!
+That's basically it! Time to make a robot out of a Raspberry Pi!
 
 Make sure git is installed:
 ```
