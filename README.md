@@ -12,6 +12,31 @@ Next, on any single board computer or a laptop, connect a wireless game controll
 
 That's basically it! Now you can attach a rover onto just about any computer that can run Python!
 
+Make sure git is installed:
+```
+sudo apt install git
+```
+
+Make sure inputs library is installed:
+```
+pip install inputs
+```
+
+Clone this repository:
+```
+git clone https://github.com/jinzohh/rover_platform.git
+```
+
+Change directory to the rover_platform directory after cloning:
+```
+cd rover_platform
+```
+
+Run rover_controller.py script:
+```
+python rover_controller.py
+```
+
 ### Moving the rover around
 
 1. Create a new Python script and import the library as below:
